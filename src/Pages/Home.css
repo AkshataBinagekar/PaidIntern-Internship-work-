@@ -15,14 +15,14 @@
   
   }
   .main h1{
-    font-size: 3.8rem;
+    font-size: 5rem;
     text-align:center; 
     color: #EBD3F8;
-    font-family: cursive;
+ 
   }
   .roller{
-    font-family: cursive;
-    height: 4.125rem;
+    font-size: 2rem;
+    height: 5.125rem;
     line-height: 4rem;
     position: relative;
     overflow: hidden; 
@@ -31,7 +31,7 @@
     justify-content: center;
     align-items: center;
     color: #2E073F;
-    letter-spacing: 0.5rem;
+    letter-spacing: 0.3rem;
   }
   
   
@@ -68,12 +68,11 @@
   }
   
   @media screen and (max-width: 768px){
-    h1{
+    .main h1{
     text-align:center;
     text-transform: uppercase;
-  
-    color: #2E073F;
-    font-size: 2.125rem;
+    font-size: 4rem;
+   
   }
     
     .roller{
@@ -82,7 +81,7 @@
     }
     
     #spare-time {
-      font-size: 1rem;
+      font-size: 1.5rem;
       letter-spacing: 0.1rem;
     }
     

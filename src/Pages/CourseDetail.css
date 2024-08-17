@@ -180,3 +180,8 @@ ul {
 .course-content-table td {
     color: #2E073F;
 }
+@media (max-width: 768px) {
+    .purchase-card {
+        margin-top: auto;
+    }  
+}
