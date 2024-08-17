@@ -182,6 +182,19 @@ ul {
 }
 @media (max-width: 768px) {
     .purchase-card {
-        margin-top: auto;
+    margin-top: auto;
     }  
+}
+@media (max-width: 448px) {
+    .purchase-card {
+margin-top: 500px;
+
+   
+    }  
+    .course-details {
+        margin-left: 20px;
+    }
+    .backbtn{
+        margin-left: 25px;
+    }
 }

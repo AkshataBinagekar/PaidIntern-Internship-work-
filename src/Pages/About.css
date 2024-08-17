@@ -138,7 +138,7 @@
   
   .reviews_track {
     display: flex;
-    animation: scroll 20s linear infinite;
+    animation: scroll 7s linear infinite;
     gap: 20px;
   }
   
