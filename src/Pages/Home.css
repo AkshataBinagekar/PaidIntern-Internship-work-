@@ -248,16 +248,18 @@
   @media screen and (max-width: 768px) {
     .course_card {
       width: 80%;
-    
+      height: 500px;
+      padding: 20px;
     }
     .course_card img {
-      width: 90%;
-      height:55%;
+      width: 100%;
+      height:35%;
     }
     .course_link{
       margin-bottom: 28px;
     }
   }
+ 
 
   .ticker-wrapper {
     width: 100%;
