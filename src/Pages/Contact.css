@@ -115,13 +115,14 @@
     .contact-container {
       flex-direction: column;
       padding: 50px;
+      margin-top: 40px;
     }
   
     .contact-info {
       position: relative;
-      left: -26px;
+      left: -40px;
       top: 0;
-     
+     padding: 15px;
       transform: translateY(0);
      
       margin-bottom: 20px;
@@ -130,6 +131,7 @@
   
     .contact-form {
       margin-left: 0;
+     
     }
   
     .contact-form h2 {
@@ -140,17 +142,21 @@
   @media (max-width: 480px) {
     .contact-info h2,
     .contact-form h2 {
-      font-size: 18px;
+      font-size: 22px;
     }
   
     .contact-info p,
     .contact-form input,
     .contact-form textarea {
-      font-size: 12px;
+      font-size: 14px;
+     
     }
-  
+    .contact-info p{
+      font-weight: bold;
+    
+    }
     .contact-form button {
-      font-size: 12px;
+      font-size: 14px;
       padding: 8px;
     }
   }

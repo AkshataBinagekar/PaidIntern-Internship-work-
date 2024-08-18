@@ -181,6 +181,40 @@ ul {
     color: #2E073F;
 }
 @media (max-width: 768px) {
+    .course-content-wrapper {
+        flex-direction: column;
+        align-items: stretch;
+    }
+
+    .course-card, .purchase-card {
+        width: 100%;
+        margin-bottom: 20px;
+  
+    }
+
+    .purchase-card {
+        margin-top: 0;
+        align-self: stretch; 
+    }
+}
+
+@media (max-width: 448px) {
+    .course-details {
+        margin-left: 10px;
+        margin-right: 25px;
+    }
+
+    .purchase-card {
+        margin-top: 10px;
+        margin-left: 10px;
+        margin-right: 25px;
+    }
+
+    .backbtn {
+        margin-left: 10px;
+    }
+}
+/* @media (max-width: 768px) {
     .purchase-card {
     margin-top: auto;
     }  
@@ -197,4 +231,4 @@ margin-top: 500px;
     .backbtn{
         margin-left: 25px;
     }
-}
+} */
